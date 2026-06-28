@@ -1,9 +1,9 @@
 /*
-Exercise 1-6
+Exercise 1-6:
 
-Verify that the expression getchar() != EOF is 0 or 1
+Verify that the expression getchar() != EOF is 0 or 1.
 
-Tip: The EOF character can be typed using ctrl+z on windows, or with ctrl+d on unix systems
+Tip: The EOF character can be typed using ctrl+z on windows systems, or with ctrl+d on unix systems
 */
 
 #include <stdio.h>

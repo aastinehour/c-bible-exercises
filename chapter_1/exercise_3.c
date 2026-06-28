@@ -1,7 +1,7 @@
 /*
-EXERCISE 1-3
+Exercise 1-3:
 
-DISPLAYS A CONVERSION TABLE OF FAHRENHEIGHT TO CELSIUS
+Modyify the temperature conversion program to print a heading above the table.
 */
 
 #include <stdio.h>
@@ -16,7 +16,7 @@ int main () {
 
 	fahr = min;
 
-	printf("far --- cel\n");
+	printf("far --- cel\n"); // <- Table heading
 
 	while (fahr <= max) {
 		celsius = (5.0 / 9.0) * (fahr - 32.0);

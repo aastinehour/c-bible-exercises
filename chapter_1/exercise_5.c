@@ -1,9 +1,7 @@
 /*
-EXCERCISE 1-5
+Exercise 1-5:
 
-MODIFY THE TEMPERATURE CONVERSION PROGRAM TO PRINT THE TABLE IN REVERSE ORDER, THAT IS, FROM 300 DEGRESS TO 0
-
-NOW USES A FOR() LOOP
+Modify the temperature conversion program to print the table in reverse order, that is, from 300 degress to 0.
 */
 
 #include <stdio.h>

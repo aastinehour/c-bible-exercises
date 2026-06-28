@@ -1,9 +1,7 @@
 /*
-EXERCISE 1-2
+Exercise 1-2:
 
-EXPERIMENT WITH /C, WHERE "C" CAN BE SWAPPED WITH DIFFERENT CHARS
-
-THROWS A WARNING WHEN COMPILING
+Experiment to find out what happens when printf's argument string contains /c, where c is some character not listed above.
 */
 
 #include <stdio.h>

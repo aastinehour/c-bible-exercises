@@ -1,7 +1,9 @@
 /*
-EXERCISE 1-4
+Exercise 1-4:
 
-DISPLAYS A REVERSED VERSION OF THE TABLE FROM 1-3, SHOWING CELSIUS -> FAHRENHEIGHT CONVERSIONS
+Write a program to print the corresponding Celsius to Fahrenheit table.
+
+Tip: F = (9/5) * C + 32
 */
 
 #include <stdio.h>
