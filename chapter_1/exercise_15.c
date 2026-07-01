@@ -21,6 +21,7 @@ int main () {
     }
 }
 
+/* Takes in a fahrenheight input and returns it in celsius */
 float fahr_to_celcius(int fahr) {
     return (5.0 / 9.0) * (fahr - 32.0);
 }
