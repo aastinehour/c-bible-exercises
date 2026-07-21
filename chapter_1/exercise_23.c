@@ -12,10 +12,16 @@ Don't forget to handle quoted strings and charater constants properly. C comment
 
 void handle_inline_comment(void);
 void handle_multiline_comment(void);
+void handle_string(void);
 
 int main(void) {
     int c;
     while ((c = getchar()) != EOF) {
+        if (c == '\"') {
+            putchar(c);
+            handle_string();
+        }
+
         if (c == '/') {
             int d = getchar();
             if (d == '/') {
@@ -56,5 +62,12 @@ void handle_multiline_comment(void) {
                 comment_status = OUT_COMMENT;
             }
         }
+    }
+}
+
+void handle_string(void) {
+    int c;
+    while ((c = getchar()) != EOF && c != '\"') {
+        putchar(c);
     }
 }
