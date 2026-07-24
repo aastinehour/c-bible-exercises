@@ -46,7 +46,7 @@ void handle_inline_comment(void) {
         ;
     }
 
-    if ((c == '\n')) {
+    if (c == '\n') {
         putchar(c);
     }
 }
