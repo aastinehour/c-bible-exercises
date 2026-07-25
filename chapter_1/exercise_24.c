@@ -30,7 +30,7 @@ int main(void) {
         /* Filters out text in strings/chars */
         if (c == '\"') {
             handle_strings();
-        } else if (c == '\"') {
+        } else if (c == '\'') {
             handle_chars();
         }
 
@@ -62,7 +62,7 @@ int main(void) {
 void handle_strings(void) {
     /* Ignores all text within strings */
     int c;
-    while ((c = getchar()) != '\"') {
+    while ((c = getchar()) != '\"' && c != EOF) {
         ;
     }
 }
@@ -70,7 +70,7 @@ void handle_strings(void) {
 void handle_chars(void) {
     /* Ignores all text within chars */
     int c;
-    while ((c = getchar()) != '\'') {
+    while ((c = getchar()) != '\'' && c != EOF) {
         ;
     }
 }
