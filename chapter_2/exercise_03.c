@@ -25,7 +25,7 @@ int htoi(char s[]) {
     int i = 0;
     int result = 0;
 
-    /* skips past any 0x or 0X sequences at the beginning of s[]  */
+    /* skips past any 0x or 0X sequences at the beginning of s[] */
     if (s[0] == '0' && (s[1] == 'x' || s[1] == 'X')) {
         i += 2;
     }
